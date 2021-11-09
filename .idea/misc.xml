@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/default_indicator.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable-v24/indicator_selector.xml" value="0.6" />
+        <entry key="app/src/main/res/drawable-v24/the_slider_background.xml" value="0.259375" />
+        <entry key="app/src/main/res/font/font.xml" value="0.3289070480081716" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.14945652173913043" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.14945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_byteel3ela.xml" value="0.13420787083753785" />
+        <entry key="app/src/main/res/layout/fragment_danielhome.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_demyamahome.xml" value="0.13420787083753785" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.13420787083753785" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14945652173913043" />
+        <entry key="app/src/main/res/layout/fragment_internet.xml" value="0.1956521739130435" />
+        <entry key="app/src/main/res/layout/fragment_internet_browser.xml" value="0.2703804347826087" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.13420787083753785" />
+        <entry key="app/src/main/res/layout/image_slider_layout_item.xml" value="0.28940217391304346" />
+        <entry key="app/src/main/res/layout/item_layout.xml" value="0.28306159420289856" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.13420787083753785" />
+        <entry key="app/src/main/res/layout/notifications_activity.xml" value="0.1437941473259334" />
+        <entry key="app/src/main/res/layout/recyclerview_row_notify.xml" value="0.13420787083753785" />
+        <entry key="app/src/main/res/layout/start_activity.xml" value="0.24230072463768115" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

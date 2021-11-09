@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514775128835",
+    "project_id": "bayt-ale3la",
+    "storage_bucket": "bayt-ale3la.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514775128835:android:ce7684f8a57291da882736",
+        "android_client_info": {
+          "package_name": "abkrino.eg.baytaleaala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514775128835-9bm7p4gusknto4lu9iqc70n7rl6mgunb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS-e6Ne3gg1eFkJZJ_jcv-EvrV-5fQV8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514775128835-9bm7p4gusknto4lu9iqc70n7rl6mgunb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
