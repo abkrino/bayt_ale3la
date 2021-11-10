@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/White_White"
 
-    tools:context="abkrino.eg.baytaleaala.ui.danielHome.DanielHomeFragment"
-    >
+    tools:context="abkrino.eg.baytaleaala.ui.danielHome.DanielHomeFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -17,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="wrap_content"
@@ -29,21 +27,21 @@
             <androidx.viewpager.widget.ViewPager
                 android:id="@+id/my_pager"
                 android:layout_width="match_parent"
-                android:layout_height="245dp"
-                />
+                android:background="@color/White_White"
+                android:layout_height="245dp" />
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/my_tablayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
                 app:tabBackground="@drawable/indicator_selector"
                 app:tabGravity="center"
-                android:layout_gravity="bottom"
-                app:tabIndicatorHeight="0dp">
-            </com.google.android.material.tabs.TabLayout>
+                android:background="@color/White_White"
+                app:tabIndicatorHeight="0dp"/>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
@@ -53,10 +51,10 @@
         android:id="@+id/scroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="32dp"
         android:clipToPadding="false"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        >
+        android:paddingTop="32dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -65,17 +63,18 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
             <TextView
                 android:id="@+id/text_demyamaHome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/fr"
-                android:textColor="@color/Black"
                 android:layout_marginEnd="8dp"
+                android:fontFamily="@font/fr"
+                android:gravity="center"
                 android:text="@string/check_your_internet_connection"
-                android:textAlignment="center"
+                android:textColor="@color/Black"
                 android:textSize="20sp" />
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.core.widget.NestedScrollView>
