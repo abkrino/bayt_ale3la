@@ -29,9 +29,9 @@ public class The_Slide_items_Adapter extends PagerAdapter {
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
 
         LayoutInflater inflater = (LayoutInflater) Mcontext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View sliderLayout = inflater.inflate(R.layout.item_layout,container ,false);
+        View sliderLayout = inflater.inflate(R.layout.item_layouts,container ,false);
 
-        ImageView featured_image = sliderLayout.findViewById(R.id.my_featured_image);
+        ImageView featured_image = sliderLayout.findViewById(R.id.my_featured_images);
 //        Picasso.get().load(theSlideItemsModelClassList.get(position).getFeatured_image()).into(featured_image);
         Glide.with(Mcontext).load(theSlideItemsModelClassList.get(position).getFeatured_image()).into(featured_image);
 //        featured_image.setImageURI(Uri.parse(theSlideItemsModelClassList.get(position).getFeatured_image()));

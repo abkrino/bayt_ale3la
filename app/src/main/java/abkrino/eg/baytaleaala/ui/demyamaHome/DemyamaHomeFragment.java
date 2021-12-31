@@ -40,24 +40,20 @@ public class DemyamaHomeFragment extends Fragment {
     private TabLayout tabLayout;
     TextView textView;
     The_Slide_items_Adapter itemsPager_adapter;
-    private final DatabaseReference mDatabasephoto = FirebaseDatabase.getInstance().getReference("pageDanielHome/images");
+    private final DatabaseReference mDatabasephoto = FirebaseDatabase.getInstance().getReference("pageDemyamaHome/images");
     Thread thread;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_demyamahome, container, false);
         calling(root);
         handling();
-
-
-
-
         return root;
     }
     public void calling(View root) {
         demyamaHomeViewModel = new ViewModelProvider(this).get(DemyamaHomeViewModel.class);
         textView = root.findViewById(R.id.text_demyamaHome);
-        page = root.findViewById(R.id.my_pager);
-        tabLayout = root.findViewById(R.id.my_tablayout);
+        page = root.findViewById(R.id.my_pagers);
+        tabLayout = root.findViewById(R.id.my_tablayouts);
         listItem = new ArrayList<>();
     }
     public void handling() {

@@ -25,13 +25,13 @@
             app:titleEnabled="false">
 
             <androidx.viewpager.widget.ViewPager
-                android:id="@+id/my_pager"
+                android:id="@+id/my_pagers"
                 android:layout_width="match_parent"
                 android:background="@color/White_White"
                 android:layout_height="245dp" />
 
             <com.google.android.material.tabs.TabLayout
-                android:id="@+id/my_tablayout"
+                android:id="@+id/my_tablayouts"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
